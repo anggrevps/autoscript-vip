@@ -301,7 +301,7 @@ echo -e "$COLOR1╰════════════════════�
 noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
 
 echo -e "$COLOR1╭══════════════════════ • ${WH}BY${NC}${COLOR1} • ═══════════════════════╮${NC}"
-echo -e "$COLOR1${NC}          ${WH}   • Tunnel Stores Premium •                 $COLOR1 $NC"
+echo -e "$COLOR1${NC}          ${WH}   • GERMA •                 $COLOR1 $NC"
 echo -e "$COLOR1╰═════════════════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu

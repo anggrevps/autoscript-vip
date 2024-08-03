@@ -74,7 +74,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
     exit 0
     fi
     echo -e ""
-    read -p "Username (Contoh : Tunnel-Stores) : " name
+    read -p "Username (Contoh : germa) : " name
     echo -e ""
     clear
     echo -e ""

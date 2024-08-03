@@ -216,8 +216,8 @@ if [[ -e /etc/github/api ]]; then
 m-ip
 else
 mkdir /etc/github
-echo "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" > /etc/github/api
-echo "encitgtg1@gmail.com" > /etc/github/email
+echo "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" > /etc/github/api
+echo "066.germa@gmail.com" > /etc/github/email
 echo "anggrevps" > /etc/github/username
 m-ip
 fi
@@ -290,7 +290,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e " $COLOR1╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " $COLOR1│${NC} ${COLBG1}               ${WH} • GERMA TUNNEL   PREMIUM •             ${NC} $COLOR1│ $NC"
+echo -e " $COLOR1│${NC} ${COLBG1}               ${WH} •  GERMA TUNNEL PREMIUM  •             ${NC} $COLOR1│ $NC"
 echo -e " $COLOR1╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " $COLOR1╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " $COLOR1│$NC${WH} ❈ OS            ${COLOR1}: ${WH}$MODEL2${NC}"
