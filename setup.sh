@@ -336,7 +336,7 @@ clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              \033[1;37mTERIMA KASIH                ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│                \033[1;37m TUNNEL STORES                 ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│                \033[1;37m GERMA                 ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
@@ -373,7 +373,7 @@ echo -e "${BIBlue}╭═══════════════════�
 echo -e "${BIBlue}│ \033[1;37mPlease select a your Choice to Set Domain${BIBlue}│${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.tepllovpn.eu.org          ${NC}"                                        
+echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.germaxd.xyz          ${NC}"                                        
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 until [[ $domain2 =~ ^[1-5]+$ ]]; do 
 read -p "   Please select numbers 1 sampai 1 : " domain2
@@ -382,7 +382,7 @@ fi
 if [[ $domain2 == "1" ]]; then
 clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.tepllovpn.eu.org        ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│  \033[1;37mContoh subdomain xxx.germaxd.xyz        ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│    \033[1;37mxxx jadi subdomain kamu               ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
