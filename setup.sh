@@ -80,7 +80,7 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/9N95bdRG > /etc/github/api
+curl -s https://pastebin.com/raw/CgReKtuc > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -107,18 +107,6 @@ rm -rf /root/rmbl
 rm -rf /etc/github
 clear
 fi
-if [[ $key == "2" ]]; then
-clear
-echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e  "${BIBlue}│              MASUKKAN LICENSE KEY        │${NC}"
-echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
-echo " "
-read -rp "Masukan Key Kamu Disini (Ctrl + C Exit) : " -e kode
-
-if [ -z $kode ]; then
-echo -e "KODE SALAH SILAHKAN MASUKKAN ULANG KODENYA"
-key2
-fi
 LIST=$(curl -sS https://raw.githubusercontent.com/anggrevps/license/main/key | grep $kode | awk '{print $2}')
 Key=$(curl -sS https://raw.githubusercontent.com/anggrevps/license/main/key | grep $kode | awk '{print $3}')
 KEY2=$(curl -sS https://raw.githubusercontent.com/anggrevps/license/main/key | grep $kode | awk '{print $4}')
@@ -129,7 +117,7 @@ if [[ $kode == "RMBLVIP" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/9N95bdRG > /etc/github/api
+curl -s https://pastebin.com/raw/CgReKtuc > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -160,9 +148,9 @@ MYIP2=$(curl -sS ipv4.icanhazip.com)
 author2=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/izWpAztt > /etc/github/api
-curl -s https://pastebin.com/raw/geWrUqPF > /etc/github/email
-curl -s https://pastebin.com/raw/gANvZZsB > /etc/github/username
+curl -s https://pastebin.com/raw/CgReKtuc > /etc/github/api
+curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
+curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -191,7 +179,7 @@ MYIP3=$(curl -sS ipv4.icanhazip.com)
 author3=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/9N95bdRG > /etc/github/api
+curl -s https://pastebin.com/raw/CgReKtuc > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -221,7 +209,7 @@ elif [[ $kode == $Key ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/9N95bdRG > /etc/github/api
+curl -s https://pastebin.com/raw/CgReKtuc > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -336,7 +324,7 @@ clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              \033[1;37mTERIMA KASIH                ${BIBlue}│${NC}"
 echo -e  "${BIBlue}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${BIBlue}│${NC}"
-echo -e  "${BIBlue}│                \033[1;37m GERMA TUNNEL                 ${BIBlue}│${NC}"
+echo -e  "${BIBlue}│                \033[1;37m GERMA                 ${BIBlue}│${NC}"
 echo -e  "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo " "
 until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
@@ -734,7 +722,7 @@ TEXT="
 <code>ISP  : </code><code>$ISP</code>
 <code>🧿───────────────────🧿</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/diwayaa"},{"text":"JOIN","url":"https://t.me/gertongers"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/germatunnel"},{"text":"JOIN","url":"https://t.me/gertongers"}]]}'
 
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
