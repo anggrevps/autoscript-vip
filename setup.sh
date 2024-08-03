@@ -80,7 +80,7 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/vvyuY0Jx > /etc/github/api
+curl -s https://pastebin.com/raw/X0ZQNzpP > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -129,7 +129,7 @@ if [[ $kode == "RMBLVIP" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/vvyuY0Jx > /etc/github/api
+curl -s https://pastebin.com/raw/X0ZQNzpP > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -160,7 +160,7 @@ MYIP2=$(curl -sS ipv4.icanhazip.com)
 author2=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/vvyuY0Jx > /etc/github/api
+curl -s https://pastebin.com/raw/X0ZQNzpP > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -191,7 +191,7 @@ MYIP3=$(curl -sS ipv4.icanhazip.com)
 author3=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/vvyuY0Jx > /etc/github/api
+curl -s https://pastebin.com/raw/X0ZQNzpP > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
@@ -221,7 +221,7 @@ elif [[ $kode == $Key ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/vvyuY0Jx > /etc/github/api
+curl -s https://pastebin.com/raw/X0ZQNzpP > /etc/github/api
 curl -s https://pastebin.com/raw/Ad71XyBe > /etc/github/email
 curl -s https://pastebin.com/raw/fP2fZdQ8 > /etc/github/username
 clear
