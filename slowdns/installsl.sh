@@ -1,12 +1,12 @@
 #!/bin/bash
 ns_domain_cloudflare() {
-	DOMAIN="tepllovpn.eu.org"
+	DOMAIN="germaxd.xyz"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}".tepllovpn.eu.org"
+	SUB_DOMAIN=${SUB}".germaxd.xyz"
 	NS_DOMAIN=ns.${SUB_DOMAIN}
-	CF_ID=bangtepllo752@gmail.com
-        CF_KEY=d8e5c652e1ddcc6fbfb20b1d7b6364de70c82
+	CF_ID=ketanngoreng@gmail.com
+        CF_KEY=a27ff86ddf13a676f108d97aead7fda8b527c
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
@@ -47,15 +47,15 @@ ns_domain_cloudflare() {
 setup_dnstt() {
 	cd
 	mkdir -p /etc/slowdns
-	wget -O dnstt-server "https://raw.githubusercontent.com/oktaviaps/autoscript-vip/main/slowdns/dnstt-server" >/dev/null 2>&1
+	wget -O dnstt-server "https://raw.githubusercontent.com/anggrevpsanggrevps/autoscript-vip/main/slowdns/dnstt-server" >/dev/null 2>&1
 	chmod +x dnstt-server >/dev/null 2>&1
-	wget -O dnstt-client "https://raw.githubusercontent.com/oktaviaps/autoscript-vip/main/slowdns/dnstt-client" >/dev/null 2>&1
+	wget -O dnstt-client "https://raw.githubusercontent.com/anggrevps/autoscript-vip/main/slowdns/dnstt-client" >/dev/null 2>&1
 	chmod +x dnstt-client >/dev/null 2>&1
 	./dnstt-server -gen-key -privkey-file server.key -pubkey-file server.pub
 	chmod +x *
 	mv * /etc/slowdns
-	wget -O /etc/systemd/system/client.service "https://raw.githubusercontent.com/oktaviaps/autoscript-vip/main/slowdns/client" >/dev/null 2>&1
-	wget -O /etc/systemd/system/server.service "https://raw.githubusercontent.com/oktaviaps/autoscript-vip/main/slowdns/server" >/dev/null 2>&1
+	wget -O /etc/systemd/system/client.service "https://raw.githubusercontent.com/anggrevps/autoscript-vip/main/slowdns/client" >/dev/null 2>&1
+	wget -O /etc/systemd/system/server.service "https://raw.githubusercontent.com/anggrevps/autoscript-vip/main/slowdns/server" >/dev/null 2>&1
 	sed -i "s/xxxx/$NS_DOMAIN/g" /etc/systemd/system/client.service 
 	sed -i "s/xxxx/$NS_DOMAIN/g" /etc/systemd/system/server.service 
 }
